@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//关于
+
 public class CreditsPanel : MonoBehaviour
 {
     public Button m_ReturnBtn;
