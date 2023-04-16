@@ -15,18 +15,18 @@ public class GameViewPanel : MonoBehaviour
 
     public Text m_RequirText;
 
-    //下一关卡按钮
+    //Next Close Button
     public Button m_NextBtn;
 
-    //上一关卡按钮
+    //Previous close button
     public Button m_LastBtn;
 
-    //下一关卡名字
+    //Next level name
     public string m_LastName;
-    //上一关卡名字
+    //Last level name
     public string m_NextName;
 
-    //主菜单页面
+    //Home Menu
     public Button m_MainBtn;
 
     void Start()

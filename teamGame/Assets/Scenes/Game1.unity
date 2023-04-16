@@ -1576,7 +1576,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1.\u6309WASD\u63A7\u5236\u89D2\u8272\u524D\u540E\u5DE6\u53F3\n2.\u73A9\u5BB6\u901A\u8FC7\u6536\u96C6\u7269\u54C1\u8FBE\u5230\u901A\u5173\n3.\u7528\u9F20\u6807\u6765\u63A7\u5236\u89D2\u8272\u671D\u5411"
+  m_Text: '1. Press WASD to control the character''s front, back, left, and right
+    sides
+
+    2. Players achieve clearance by collecting items
+
+    3. Use the mouse
+    to control the character''s orientation'
 --- !u!222 &145962217
 CanvasRenderer:
   m_ObjectHideFlags: 0
