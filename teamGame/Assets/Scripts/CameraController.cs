@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-//简单的第三人称摄像机
+// Simple third person camera
 public class CameraController : MonoBehaviour
 { 
     public Vector3 m_Camera;

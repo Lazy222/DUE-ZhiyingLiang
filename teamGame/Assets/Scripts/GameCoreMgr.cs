@@ -6,13 +6,13 @@ public class GameCoreMgr : MonoBehaviour
 {
     public PlayerState m_PlayerState;
 
-    //金币
+    // Gold coin
     public int m_Gold; 
 
-    //胜利界面
+    // Victory screen
     public GameObject m_GameWinPlane;
 
-    //是否通关
+    // Whether to clear the customs
     public bool IsPassLevel()
     {
         if(m_PlayerState.m_CurGold>=m_Gold)

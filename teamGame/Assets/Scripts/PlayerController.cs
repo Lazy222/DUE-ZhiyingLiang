@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
  
-//这个角色控制器 跳跃 用的是刚体+碰撞来实现的
+// This character controller jump is implemented using rigid body + collision
 public class PlayerController : MonoBehaviour
 { 
     public float speed = 10.0f;
@@ -47,21 +47,21 @@ public class PlayerController : MonoBehaviour
         Jump();  
     }    
     
-    //跳跃
+    // Jump
     public void Jump()
     { 
         
         if(Input.GetKeyDown(KeyCode.Space) && canjump)
         {    
-            //为刚体添加一个向上的力
-           // rb.AddForce(Vector3.up * (jumpForce));
-           // canjump = false; 
+            //Add an upward force to the rigid body
+            // rb.AddForce(Vector3.up * (jumpForce));
+            // canjump = false;
         } 
 
-       //当刚体速度小于-1的时候就证明下落了
+       // The rigid body is proved to be falling when its velocity is less than -1
        if(rb.velocity.y<=-1)
        { 
-            //这个时候给它加一个向下的力量
+            // Give it a downward force at this point
             rb.AddForce(-Vector3.up);
        }
     } 
@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
         {
             if (horizontal != 0 || vertical != 0)
             {
-                //播放行走
+                // Play walk
                 m_Animator.SetBool("Run", true);
             }
             else

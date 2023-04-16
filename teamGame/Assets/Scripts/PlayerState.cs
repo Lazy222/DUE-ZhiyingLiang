@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerState : MonoBehaviour
 {
-    //当前拥有金币
+    // Currently owns gold
     public int m_CurGold; 
     
 }
