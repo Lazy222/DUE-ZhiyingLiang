@@ -3,28 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-//主菜单界面
+// Main menu screen
 public class MainMenuPanel : MonoBehaviour
 {
-    //开始游戏
+    // Start the game
     public Button m_StartBtn;
-    //其他场景  
+    // Other scenarios
 
     public Button m_OtherScenesBtn;
 
-    //帮助
+    // Help
     public Button m_HelpBtan;
     
-    //关于
+    // About
     public Button m_CreditsBtn; 
 
-    //其他场景面板
+    // Other scene panels
     public GameObject m_OtherScenesPlane;
 
-    //帮助界面
+    // The help page
     public GameObject m_HelpPlane;
 
-    //关于面板
+    // About the panel
     public GameObject m_CreditsPlane;
 
     void Start()
