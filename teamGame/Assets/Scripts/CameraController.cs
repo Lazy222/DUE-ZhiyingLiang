@@ -57,15 +57,23 @@ public class CameraController : MonoBehaviour
     private float fy;
     void Update()
     {
-        ////这里来处理UI出现时候鼠标进入非锁定
-        //if (EventSystem.current != null)
-        //{ 
-        //    //判断鼠标是不是在UI上面
-        //    if (EventSystem.current.IsPointerOverGameObject())
-        //    {  
-        //        return;
-        //    } 
-        //} 
+        //// Here to handle the UI when the mouse enters unlocked
+
+//if (EventSystem.current ! = null)
+
+// {
+
+// // Determine if the mouse is over the UI
+
+//    if (EventSystem.current.IsPointerOverGameObject())
+
+// {
+
+//        return;
+
+//}
+
+//}
         Quaternion rotation = Quaternion.identity;
         if (Input.GetMouseButton(1))
         { 
